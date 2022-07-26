@@ -21,12 +21,12 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="include\ListNode.cpp">
+      <Filter>头文件\include</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="leetcode.h">
-      <Filter>头文件\include</Filter>
-    </ClInclude>
-    <ClInclude Include="tree.h">
+    <ClInclude Include="include\ListNode.h">
       <Filter>头文件\include</Filter>
     </ClInclude>
   </ItemGroup>
