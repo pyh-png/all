@@ -24,9 +24,15 @@
     <ClCompile Include="include\ListNode.cpp">
       <Filter>头文件\include</Filter>
     </ClCompile>
+    <ClCompile Include="include\solution.cpp">
+      <Filter>头文件\include</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ListNode.h">
+      <Filter>头文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\solution.h">
       <Filter>头文件\include</Filter>
     </ClInclude>
   </ItemGroup>

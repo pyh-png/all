@@ -1,14 +1,12 @@
 #include<iostream>
+#include"include\solution.h"
 using namespace std;
 #define ipt(x) cin>>x
-int add(int a, int b);
 int main() {
-	int a = 1;
-	int b = 1;
+	int a, b;
 	ipt(a);
-	cout << a << endl;
+	ipt(b);
+	Solution s;
+	cout << s.add(a,b) << endl;
 	return 0;
-}
-int add(int a, int b) {
-	return a + b;
 }
