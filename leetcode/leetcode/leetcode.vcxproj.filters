@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\include">
+      <UniqueIdentifier>{998f7c2e-a27f-4a64-b30f-53f55dd4749a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,7 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\include</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
