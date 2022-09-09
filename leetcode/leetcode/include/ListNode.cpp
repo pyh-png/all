@@ -3,7 +3,7 @@ void ListNode::createList(ListNode *head, int len) {
 	for (int i = 1; i < len; i++)   //len-1个节点，加上head节点共len个
 	{
 		ListNode *node = new ListNode;   //每次都需要实例化一个ListNode
-		node->val = i * i;    //为节点赋值
+		node->val = i;    //为节点赋值
 		node->next = nullptr;
 		head->next = node;   //head指向下一个节点（即当前节点）
 		head = node;     //将当前节点设为head
